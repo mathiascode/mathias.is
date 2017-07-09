@@ -1,0 +1,6 @@
+/*
+  Content-Security-Policy "default-src https://kaboom.pw data:"
+  X-Frame-Options "DENY"
+  X-Content-Type-Options "nosniff"
+  X-Xss-Protection "1; mode=block"
+  Referrer-Policy "no-referrer"
