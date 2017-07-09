@@ -5,7 +5,10 @@ layout: default
 My personal website, which is used for experiments and personal things. Nothing of interest here yet...
 
 ## Contact
-<form name="contact" action="success" netlify>
+<form name="contact" netlify-honeypot="bot-field" action="success" netlify>
+    <p class="hidden">
+        <label><input name="bot-field"></label>
+    </p>
     <p>
         <label>Your Name: <input type="text" name="name"></label>   
     </p>
