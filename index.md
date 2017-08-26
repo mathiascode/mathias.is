@@ -2,7 +2,7 @@
 layout: default
 ---
 # Mathias
-My personal website, which is used for experiments and personal things. Nothing of interest here yet...
+My personal website, which I use for various experiments. There is nothing of interest here yet, but you can contact me below.
 
 ## Contact
 <form name="contact" netlify-honeypot="bot-field" action="success" netlify>
