@@ -2,11 +2,8 @@ title: Mathias
 description: Personal website for Mathias
 url: https://mathias.re
 
-markdown: kramdown
 sass:
   style: :compressed
-gems:
-  - jekyll-sitemap
 include:
   - _headers
 exclude:
