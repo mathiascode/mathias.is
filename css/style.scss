@@ -21,9 +21,6 @@
 	margin: 0;
 	padding: 0;
 }
-html, body {
-	height: 100%;
-}
 html {
 	@media (min-width: 0em) {
 		font-size: 88%;
@@ -122,7 +119,6 @@ html {
 body {
 	background: #F4F7F6;
 	color: #555555;
-	display: table;
 	font-family: Railway;
 	margin: auto;
 	max-width: 60em;
@@ -130,7 +126,6 @@ body {
 h1,
 h2 {
 	color: #31698a;
-	fill: #31698a;
 	font-weight: bold;
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -139,9 +134,6 @@ h1 {
 	font-size: 2.875em;
 	line-height: 1.125em;
 	margin: 0 0 0.500em 0;
-}
-h1 svg {
-	margin: 0 0.563em 0 0;
 }
 h2 {
 	font-size: 1.725em;
@@ -152,19 +144,8 @@ p {
 	line-height: 1.625em;
 	margin: 0 0 0.938em 0;
 }
-em {
-	font-style: italic;
-}
-strong {
-	font-weight: bold;
-}
-a {
-	color: #00AAAA;
-	text-decoration: none;
-}
-a:hover,
-a:focus {
-	color: #66cccc;
+article {
+	padding: 7%;
 }
 form {
 	font-size: 1.250em;
@@ -182,17 +163,13 @@ input {
 	margin: 0.250em 0 0.938em 0;
 	padding: 0 0.625em;
 }
+input[name="bot-field"] {
+	display: none;
+}
 textarea {
 	padding: 0.500em 0.625em;
 	margin: 0 0 1.875em 0;
 	resize: none;
-}
-label {
-	display: block;
-	line-height: 2.188em;
-}
-.hidden {
-	display: none;
 }
 button {
 	background: #31698a;
@@ -200,7 +177,6 @@ button {
 	color: #fff;
 	cursor: pointer;
 	letter-spacing: 1px;
-	margin: auto;
 	padding: 0.688em 0.813em;
 	text-transform: uppercase;
 }
@@ -208,15 +184,8 @@ button:hover,
 button:focus {
 	background: #5a87a1;
 }
-article {
-	display: table-cell;
-	padding: 7%;
-	vertical-align: middle;
-}
 @media print {
 	article {
 		padding: 0;
-		max-width: initial;
-		vertical-align: top;
 	}
 }
