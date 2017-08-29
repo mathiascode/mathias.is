@@ -8,6 +8,6 @@ My name is Mathias, and this is my personal website, which I use for various exp
 <form name="contact" netlify-honeypot="bot-field" action="success" netlify>
 	<input name="bot-field" class="hidden">
 	<input type="email" name="email" placeholder="Your E-mail">
-	<textarea name="message" placeholder="Your Message"></textarea>
+	<textarea name="message" rows="5" placeholder="Your Message"></textarea>
 	<button type="submit">Send</button>
 </form>
