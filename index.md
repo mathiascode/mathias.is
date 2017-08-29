@@ -6,16 +6,8 @@ My name is Mathias, and this is my personal website, which I use for various exp
 
 ## Contact Me
 <form name="contact" netlify-honeypot="bot-field" action="success" netlify>
-	<p class="hidden">
-		<input name="bot-field">
-	</p>
-	<p>
-		<input type="email" name="email" placeholder="Your E-mail">
-	</p>
-	<p>
-		<textarea name="message" placeholder="Your Message"></textarea>
-	</p>
-	<p>
-		<button type="submit">Send</button>
-	</p>
+	<input name="bot-field" class="hidden">
+	<input type="email" name="email" placeholder="Your E-mail">
+	<textarea name="message" placeholder="Your Message"></textarea>
+	<button type="submit">Send</button>
 </form>

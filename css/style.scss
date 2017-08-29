@@ -166,6 +166,9 @@ a:hover,
 a:focus {
 	color: #66cccc;
 }
+form {
+	font-size: 1.250em;
+}
 input, textarea {
 	border-radius: 0.313em;
 	box-shadow: 0 0.125em 0.125em rgba(0, 0, 0, .1);
@@ -176,10 +179,12 @@ input, textarea {
 input {
 	height: 2.375em;
 	line-height: 2.375em;
+	margin: 0.250em 0 0.938em 0;
 	padding: 0 0.625em;
 }
 textarea {
-	padding: 0.625em;
+	padding: 0.188em 0.625em;
+	margin: 0 0 1.875em 0;
 	resize: none;
 }
 label {
