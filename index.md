@@ -10,9 +10,6 @@ My name is Mathias, and this is my personal website, which I use for various exp
 		<input name="bot-field">
 	</p>
 	<p>
-		<input type="text" name="name" placeholder="Your Name">
-	</p>
-	<p>
 		<input type="email" name="email" placeholder="Your E-mail">
 	</p>
 	<p>
