@@ -23,6 +23,7 @@
 }
 html, body {
 	height: 100%;
+	width: 100%;
 }
 html {
 	@media (min-width: 0em) {
@@ -124,6 +125,7 @@ body {
 	color: #555555;
 	display: table;
 	font-family: Railway;
+	font-size: 1.250em;
 	margin: auto;
 	max-width: 60em;
 }
@@ -135,26 +137,26 @@ h2 {
 	text-transform: uppercase;
 }
 h1 {
-	font-size: 2.875em;
+	font-size: 2.625em;
 	line-height: 1.125em;
 	margin: 0 0 0.500em 0;
 }
 h2 {
-	font-size: 1.725em;
+	font-size: 1.500em;
 	margin: 2.125em 0 0.750em 0;
 }
 p {
-	font-size: 1.250em;
 	line-height: 1.625em;
 	margin: 0 0 0.938em 0;
+}
+a {
+	margin: 0.938em 0 0 0;
+	text-decoration: none;
 }
 article {
 	display: table-cell;
 	padding: 7%;
 	vertical-align: middle;
-}
-form {
-	font-size: 1.250em;
 }
 input, textarea {
 	border-radius: 0.313em;
@@ -177,15 +179,20 @@ textarea {
 	margin: 0 0 1.875em 0;
 	resize: none;
 }
-button {
+a, button {
 	background: #31698a;
 	border-radius: 0.313em;
 	color: #fff;
 	cursor: pointer;
+	display: inline-block;
+	font-size: 1.250em;
 	letter-spacing: 1px;
-	padding: 0.688em 0.813em;
+	line-height: 1;
+	padding: 0.813em;
 	text-transform: uppercase;
 }
+a:hover,
+a:focus,
 button:hover,
 button:focus {
 	background: #5a87a1;
