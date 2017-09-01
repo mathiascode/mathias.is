@@ -7,14 +7,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-@keyframes fadein {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
 * {
 	font: inherit;
 	line-height: 1.2;
@@ -33,7 +25,6 @@ html {
 	width: 100%;
 }
 body {
-	animation: fadein 1s;
 	background: #F4F7F6;
 	color: #555555;
 	display: table-cell;
