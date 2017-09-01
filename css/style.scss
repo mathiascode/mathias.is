@@ -20,14 +20,15 @@
 	line-height: 1.2;
 }
 button,
-input {
+input,
+textarea {
 	border: 0;
 }
 html {
 	display: table;
 	height: 100%;
 	margin: auto;
-	max-width: 50em;
+	max-width: 60em;
 	width: 100%;
 
 	@media (min-width: 0em) {
