@@ -26,104 +26,11 @@ textarea {
 }
 html {
 	display: table;
+	font-size: calc(0.2vw + 0.875em);
 	height: 100%;
 	margin: auto;
 	max-width: 60em;
 	width: 100%;
-
-	@media (min-width: 0em) {
-		font-size: 88%;
-	}
-	@media (min-width: 10em) {
-		font-size: 90%;
-	}
-	@media (min-width: 20em) {
-		font-size: 92%;
-	}
-	@media (min-width: 30em) {
-		font-size: 94%;
-	}
-	@media (min-width: 40em) {
-		font-size: 96%;
-	}
-	@media (min-width: 50em) {
-		font-size: 98%;
-	}
-	@media (min-width: 60em) {
-		font-size: 100%;
-	}
-	@media (min-width: 70em) {
-		font-size: 102%;
-	}
-	@media (min-width: 80em) {
-		font-size: 104%;
-	}
-	@media (min-width: 90em) {
-		font-size: 106%;
-	}
-	@media (min-width: 100em) {
-		font-size: 108%;
-	}
-	@media (min-width: 110em) {
-		font-size: 110%;
-	}
-	@media (min-width: 120em) {
-		font-size: 112%;
-	}
-	@media (min-width: 130em) {
-		font-size: 114%;
-	}
-	@media (min-width: 140em) {
-		font-size: 116%;
-	}
-	@media (min-width: 150em) {
-		font-size: 118%;
-	}
-	@media (min-width: 160em) {
-		font-size: 120%;
-	}
-	@media (min-width: 170em) {
-		font-size: 122%;
-	}
-	@media (min-width: 180em) {
-		font-size: 124%;
-	}
-	@media (min-width: 190em) {
-		font-size: 126%;
-	}
-	@media (min-width: 200em) {
-		font-size: 128%;
-	}
-	@media (min-width: 210em) {
-		font-size: 130%;
-	}
-	@media (min-width: 220em) {
-		font-size: 132%;
-	}
-	@media (min-width: 230em) {
-		font-size: 134%;
-	}
-	@media (min-width: 240em) {
-		font-size: 136%;
-	}
-	@media (min-width: 250em) {
-		font-size: 138%;
-	}
-	@media (min-width: 260em) {
-		font-size: 140%;
-	}
-	@media (min-width: 270em) {
-		font-size: 142%;
-	}
-	@media (min-width: 280em) {
-		font-size: 144%;
-	}
-	@media (min-width: 290em) {
-		font-size: 146%;
-	}
-	@media (min-width: 300em) {
-		font-size: 148%;
-	}
 }
 body {
 	animation: fadein 1s;
@@ -199,7 +106,7 @@ button:focus {
 	background: #5a87a1;
 }
 @media print {
-	article {
+	body {
 		padding: 0;
 	}
 }
