@@ -16,18 +16,20 @@
 	}
 }
 * {
-	border: 0;
 	font: inherit;
 	line-height: 1.2;
-	margin: 0;
-	padding: 0;
 }
-html,
-body {
-	height: 100%;
-	width: 100%;
+button,
+input {
+	border: 0;
 }
 html {
+	display: table;
+	height: 100%;
+	margin: auto;
+	max-width: 50em;
+	width: 100%;
+
 	@media (min-width: 0em) {
 		font-size: 88%;
 	}
@@ -125,11 +127,11 @@ html {
 body {
 	background: #F4F7F6;
 	color: #555555;
-	display: table;
+	display: table-cell;
 	font-family: Railway;
 	font-size: 1.250em;
-	margin: auto;
-	max-width: 50em;
+	padding: 6%;
+	vertical-align: middle;
 }
 h1,
 h2 {
@@ -153,11 +155,6 @@ p {
 a {
 	margin: 0.938em 0 0 0;
 	text-decoration: none;
-}
-article {
-	display: table-cell;
-	padding: 6%;
-	vertical-align: middle;
 }
 input,
 textarea {

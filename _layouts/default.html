@@ -9,8 +9,6 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-	<article>
-		{{ content }}
-	</article>
+	{{ content }}
 </body>
 </html>{% endcapture %}{{ content | strip_newlines | replace:'	','' }}
