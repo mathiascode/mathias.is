@@ -6,6 +6,7 @@ sass:
   style: :compressed
 include:
   - _headers
+  - _redirects
 exclude:
   - Gemfile
   - Gemfile.lock
