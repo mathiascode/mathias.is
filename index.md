@@ -6,7 +6,7 @@ My name is Mathias. This is my personal website, which I use for various experim
 
 ## Contact Me
 <form name="contact" netlify-honeypot="bot-field" action="#sent" netlify>
-	<div>Your message has been sent. Thank you for contacting me.</div>
+	<div id="sent">Your message has been sent. Thank you for contacting me.</div>
 	<input name="bot-field" class="hidden">
 	<input type="email" name="email" placeholder="Your E-mail" required>
 	<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
