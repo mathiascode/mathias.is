@@ -1,5 +1,5 @@
 /*
-  Content-Security-Policy: default-src https://mathias.re; font-src data:; img-src 'none'; object-src 'none'; script-src 'none'; style-src 'none'
+  Content-Security-Policy: default-src 'none'; font-src data:; img-src 'none'; object-src 'none'; script-src 'none'; style-src https://mathias.re
   X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
   X-XSS-Protection: 1; mode=block
