@@ -56,6 +56,12 @@ a {
 	margin: 0.938em 0 0 0;
 	text-decoration: none;
 }
+form div, input[name="bot-field"] {
+	display: none;
+}
+form div:target {
+	display: initial;
+}
 input,
 textarea {
 	border-radius: 0.313em;
@@ -68,9 +74,6 @@ input {
 	height: 2.375em;
 	margin: 0 0 0.938em 0;
 	padding: 0 0.625em;
-}
-input[name="bot-field"] {
-	display: none;
 }
 textarea {
 	padding: 0.625em;
