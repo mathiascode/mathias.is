@@ -56,10 +56,10 @@ a {
 	margin: 0.938em 0 0 0;
 	text-decoration: none;
 }
-form div, input[name="bot-field"] {
+#sent, #sent:target + form, input[name="bot-field"] {
 	display: none;
 }
-form div:target {
+#sent:target {
 	display: initial;
 }
 input,
