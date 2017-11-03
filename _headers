@@ -1,6 +1,0 @@
-/*
-  Content-Security-Policy: connect-src 'none'; default-src 'none'; font-src data:; frame-src 'none'; img-src 'none'; media-src 'none'; object-src 'none'; script-src 'none'; style-src 'self'
-  Referrer-Policy: no-referrer
-  X-Content-Type-Options: nosniff
-  X-Frame-Options: DENY
-  X-XSS-Protection: 1; mode=block
