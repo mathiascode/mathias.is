@@ -10,7 +10,8 @@ X-XSS-Protection = "1; mode=block"
 [[headers]]
 for = "/*.css"
 [headers.values]
-Cache-Control = "max-age=172800"
+Cache-Control = "max-age=604800"
+Expires: 604800
 
 [[redirects]]
 from = "/*"
