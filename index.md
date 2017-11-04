@@ -8,8 +8,8 @@ My name is Mathias. This is my personal website, which I use for various experim
 <div id="sent">
 	<p>Your message has been sent. Thank you for contacting me.</p>
 </div>
-<form name="contact" netlify-honeypot="bot-field" action="#sent" netlify>
-	<input name="bot-field" class="hidden">
+<form name="contact" netlify-honeypot="name" action="#sent" netlify>
+	<input name="name">
 	<input type="email" name="email" placeholder="Your E-mail" required>
 	<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
 	<button type="submit">Send</button>
