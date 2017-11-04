@@ -33,7 +33,7 @@ body {
 	background: $backgroundcolor;
 	color: $textcolor;
 	display: table-cell;
-	font-family: Railway;
+	font-family: Railway, sans-serif;
 	font-size: 1.250em;
 	padding: 6%;
 	vertical-align: middle;
@@ -73,7 +73,7 @@ a {
 	margin: 0.750em 0 0 0;
 }
 #sent p:before {
-	content:'✓';
+	content:'\2713';
 	margin: 0 0.375em 0 0;
 }
 form {
