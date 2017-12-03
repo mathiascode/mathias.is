@@ -41,15 +41,16 @@ body {
 h1,
 h2 {
 	color: $accentcolor;
-	letter-spacing: 2px;
+	font-weight: bold;
+	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 h1 {
-	font-size: 2.875em;
+	font-size: 2.813em;
 	margin: 0 0 0.313em 0;
 }
 h2 {
-	font-size: 1.750em;
+	font-size: 1.688em;
 	margin: 1.750em 0 0 0;
 }
 p {
