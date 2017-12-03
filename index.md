@@ -9,8 +9,16 @@ My name is Mathias. This is my personal website, which I use for various experim
 	<p>Your message has been sent. Thank you for contacting me.</p>
 </div>
 <form action="/contact.cgi" method="post">
-	<input name="name">
-	<input type="email" name="email" placeholder="Your E-mail" required>
-	<textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+	<div id="fields">
+		<input name="name">
+		<div>
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" required>
+		</div>
+		<div>
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" rows="5" required></textarea>
+		</div>
+	</div>
 	<button type="submit">Send</button>
 </form>
