@@ -2,9 +2,9 @@
 use CGI;
 my $q = new CGI;
 
-my $honeypot = $q->param('name');
 my $email = email_filter($q->param('email'));
 my $message = message_filter($q->param('message'));
+my $honeypot = $q->param('tos');
 
 if (($honeypot eq "") && ($email ne "") && ($message ne ""))
 {

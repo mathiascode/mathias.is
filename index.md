@@ -11,16 +11,16 @@ My name is Mathias. This is my personal website, which I use for various experim
 <form action="/contact" method="post">
 	<div id="fields">
 		<div>
-			<label for="name">Name:</label>
-			<input id="name" name="name">
-		</div>
-		<div>
 			<label for="email">E-mail:</label>
 			<input id="email" type="email" name="email" required>
 		</div>
 		<div>
 			<label for="message">Message:</label>
 			<textarea id="message" name="message" rows="5" required></textarea>
+		</div>
+		<div>
+			<label for="name">Leave this checkbox empty:</label>
+			<input type="checkbox" name="tos" tabindex="-1" autocomplete="off">
 		</div>
 	</div>
 	<button type="submit">Send</button>

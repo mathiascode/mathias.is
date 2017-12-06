@@ -96,7 +96,7 @@ form {
 #fields div {
 	display: table-row;
 }
-#fields div:first-child {
+#fields div:last-child {
 	display: none;
 }
 #fields + button {
