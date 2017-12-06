@@ -10,7 +10,10 @@ My name is Mathias. This is my personal website, which I use for various experim
 </div>
 <form action="/contact.cgi" method="post">
 	<div id="fields">
-		<input name="name">
+		<div>
+			<label for="name">Name:</label>
+			<input id="name" name="name">
+		</div>
 		<div>
 			<label for="email">E-mail:</label>
 			<input id="email" type="email" name="email" required>

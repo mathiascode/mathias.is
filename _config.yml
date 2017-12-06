@@ -6,5 +6,9 @@ exclude:
   - Gemfile
   - LICENSE
 
+jekyll-minifier:
+  remove_intertag_spaces: true
+  remove_quotes: true
+
 sass:
   style: :compressed

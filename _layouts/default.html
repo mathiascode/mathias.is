@@ -2,7 +2,15 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>{{ site.title }}</title>
+	<title>
+		{% if page.title %}
+			{{ page.title }} – 
+		{% endif %}
+		{{ site.title }}
+		{% if page.url == "/" %}
+			 - Personal Website
+		{% endif %}
+	</title>
 	<meta name="description" content="{{ site.description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}">
@@ -14,4 +22,4 @@
 <body>
 	{{ content }}
 </body>
-</html>{% endcapture %}{{ content | strip_newlines | replace:'	','' }}
+</html>{% endcapture %}{{ content | strip_newlines | replace:'	','' | replace:'required=""','required' }}
