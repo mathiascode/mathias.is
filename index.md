@@ -2,7 +2,7 @@
 layout: default
 ---
 # Mathias
-My name is Mathias. This is my personal website, which I use for various experiments. If you have something to tell me, you can contact me below.
+My name is Mathias. This is my personal website, which I use for various experiments. If you have something to tell me, please contact me below.
 
 ## Contact Me
 <div id="sent">
