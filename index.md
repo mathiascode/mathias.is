@@ -8,7 +8,7 @@ My name is Mathias. This is my personal website, which I use for various experim
 <div id="sent">
 	<p>Your message has been sent. Thank you for contacting me.</p>
 </div>
-<form action="/contact.cgi" method="post">
+<form action="/contact" method="post">
 	<div id="fields">
 		<div>
 			<label for="name">Name:</label>
