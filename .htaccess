@@ -16,7 +16,7 @@ SetHandler cgi-script
 </FilesMatch>
 
 <FilesMatch ".(htm|html)$">
-Header set Content-Security-Policy "connect-src 'none'; default-src 'none'; font-src data:; frame-src 'none'; img-src 'none'; media-src 'none'; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests; report-uri /report"
+Header set Content-Security-Policy "connect-src 'none'; default-src 'none'; font-src data:; form-action 'self'; frame-src 'none'; img-src 'none'; media-src 'none'; object-src 'none'; script-src 'none'; style-src 'self'; upgrade-insecure-requests; report-uri /report"
 Header set X-Frame-Options "DENY"
 Header set X-Xss-Protection "1; mode=block"
 </FilesMatch>
