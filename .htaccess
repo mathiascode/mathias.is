@@ -11,12 +11,12 @@ AddType application/manifest+json .webmanifest
 ErrorDocument 403 /404.html
 ErrorDocument 404 /404.html
 
-<FilesMatch contact$>
-    SetHandler cgi-script
+<FilesMatch "(contact|report)$">
+SetHandler cgi-script
 </FilesMatch>
 
 <FilesMatch ".(htm|html)$">
-Header set Content-Security-Policy "connect-src 'none'; default-src 'none'; font-src data:; frame-src 'none'; img-src 'none'; media-src 'none'; object-src 'none'; script-src 'none'; style-src 'self'"
+Header set Content-Security-Policy "connect-src 'none'; default-src 'none'; font-src data:; frame-src 'none'; img-src 'none'; media-src 'none'; object-src 'none'; script-src 'self'; style-src 'self'; upgrade-insecure-requests; report-uri /report"
 Header set X-Frame-Options "DENY"
 Header set X-Xss-Protection "1; mode=block"
 </FilesMatch>
@@ -41,3 +41,5 @@ Header set Referrer-Policy "no-referrer"
 Header set Strict-Transport-Security "max-age=63072000; includeSubdomains; preload"
 Header set Vary "Accept-Encoding"
 Header set X-Content-Type-Options "nosniff"
+Header unset Accept-Ranges
+Header unset Last-Modified

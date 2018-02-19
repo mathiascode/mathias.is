@@ -31,6 +31,7 @@ body {
 	background: $backgroundcolor;
 	color: $textcolor;
 	display: table-cell;
+	fill: $textcolor;
 	font-family: Railway, sans-serif;
 	font-size: 1.250em;
 	max-width: 35em;
@@ -52,6 +53,13 @@ h2 {
 	font-size: 1.625em;
 	margin: 0;
 }
+h2 svg {
+	fill: $accentcolor;
+	margin: 0 0.313em 0 0;
+}
+h2 span {
+	 vertical-align:middle
+}
 h1 + h2 {
 	margin: 0.625em 0 0 0;
 }
@@ -64,6 +72,10 @@ p {
 }
 p:last-child {
 	margin: 1.000em 0 0 0;
+}
+svg {
+	height: 1.125em;
+	vertical-align: -0.188em;
 }
 a {
 	color: lighten($accentcolor, 5%);
@@ -81,9 +93,12 @@ a:focus {
 #sent:target {
 	max-height: 4.000em;
 }
-#sent p:before {
-	content:'\2713';
-	margin: 0 0.375em 0 0;
+#sent svg {
+	margin: 0 0.500em 0 0;
+}
+.icon {
+	width: 2em;
+	height: 2em;
 }
 form {
 	margin: 1.625em 0 0 0;
