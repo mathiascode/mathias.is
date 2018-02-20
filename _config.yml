@@ -3,6 +3,7 @@ description: My name is Mathias. This is my personal website, which I use for va
 url: https://mathias.re
 
 exclude:
+  - build.sh
   - Gemfile
   - LICENSE
 

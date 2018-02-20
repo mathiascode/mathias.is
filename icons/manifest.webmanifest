@@ -2,12 +2,9 @@
     "name": "Mathias",
     "icons": [
         {
-            "src": "/icons/android-chrome-512x512.png",
+            "src": "/icons/android-chrome.png",
             "sizes": "512x512",
             "type": "image/png"
         }
-    ],
-    "theme_color": "#00588e",
-    "background_color": "#00588e",
-    "display": "standalone"
+    ]
 }

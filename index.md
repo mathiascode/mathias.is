@@ -4,12 +4,7 @@ layout: default
 # Mathias
 My name is Mathias. This is my personal website, which I use for various experiments. If you have something to tell me, please contact me below.
 
-<h2>
-	<!--<svg viewBox="0 0 24 24">
-		<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
-	</svg>-->
-	<span>Contact Me</span>
-</h2>
+## Contact Me
 <div id="sent">
 	<p>
 		<svg viewBox="0 0 24 24">
@@ -29,8 +24,8 @@ My name is Mathias. This is my personal website, which I use for various experim
 			<textarea id="message" name="message" rows="5" required></textarea>
 		</div>
 		<div>
-			<label for="name">Leave this checkbox empty:</label>
-			<input type="checkbox" name="tos" tabindex="-1" autocomplete="off">
+			<label for="tos">Leave this checkbox empty:</label>
+			<input id="tos" type="checkbox" name="tos" tabindex="-1">
 		</div>
 	</div>
 	<button type="submit">Send</button>
