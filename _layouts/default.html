@@ -19,7 +19,9 @@
 	<link rel="manifest" href="/icons/manifest.webmanifest">
 	<link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#00588e">
 </head>
-<body role="main">
-	{{ content }}
+<body>
+	<main id="main">
+		{{ content }}
+	</main>
 </body>
-</html>{% endcapture %}{{ content | strip_newlines | replace:'	','' | replace:'required=""','required' }}
+</html>{% endcapture %}{{ content | strip_newlines | replace:'	','' | replace:'required="" /','required' | replace:'required=""','required' | replace:'"-1" /', '-1'}}

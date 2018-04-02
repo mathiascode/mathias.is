@@ -2,7 +2,7 @@ RewriteBase /
 RewriteEngine On
 
 AddDefaultCharset utf-8
-AddCharset UTF-8 .br .css .gz .js .webmanifest
+AddCharset UTF-8 .css .js .webmanifest
 FileETag MTime Size
 Options +ExecCGI
 ServerSignature Off
@@ -12,9 +12,9 @@ AddType image/x-icon .ico
 AddType application/manifest+json .webmanifest
 
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
-RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+RewriteCond %{ENV:HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 ErrorDocument 404 /404.html
 RewriteCond %{REQUEST_FILENAME} -d
@@ -25,7 +25,7 @@ SetHandler cgi-script
 </FilesMatch>
 
 <FilesMatch ".(htm|html)$">
-Header set Content-Security-Policy "default-src 'none'; font-src data:; form-action 'self'; img-src 'self'; manifest-src 'self'; style-src 'self'; upgrade-insecure-requests; report-uri /report"
+Header set Content-Security-Policy "default-src 'none'; font-src data:; form-action 'self'; img-src 'self'; manifest-src 'self'; style-src 'self'; upgrade-insecure-requests"
 Header set X-Frame-Options "DENY"
 Header set X-Xss-Protection "1; mode=block"
 </FilesMatch>
@@ -49,7 +49,7 @@ AddEncoding br .br
 AddEncoding gzip .gz
 
 <FilesMatch (.css.br|.css.gz)>
-ForceType text/css
+ForceType "text/css; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.ico.br|.ico.gz)>
@@ -57,29 +57,29 @@ ForceType image/x-icon
 </FilesMatch>
 
 <FilesMatch (.html.br|.html.gz)>
-ForceType text/html
+ForceType "text/html; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.js.br|.js.gz)>
-ForceType text/javascript
+ForceType "text/javascript; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.png.br|.png.gz)>
-ForceType image/png
+ForceType "image/png; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.svg.br|.svg.gz)>
-ForceType image/svg+xml
+ForceType "image/svg+xml; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.txt.br|.txt.gz)>
-ForceType text/plain
+ForceType "text/plain; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.webmanifest.br|.webmanifest.gz)>
-ForceType application/manifest+json
+ForceType "application/manifest+json; charset=utf-8"
 </FilesMatch>
 
 <FilesMatch (.xml.br|.xml.gz)>
-ForceType text/xml
+ForceType "text/xml; charset=utf-8"
 </FilesMatch>
