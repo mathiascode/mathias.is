@@ -1,4 +1,7 @@
-{% capture content %}<!DOCTYPE html>
+---
+layout: minify
+---
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
@@ -24,4 +27,4 @@
 		{{ content }}
 	</main>
 </body>
-</html>{% endcapture %}{{ content | strip_newlines | replace:'	',''}}
+</html>

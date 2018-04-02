@@ -1,10 +1,12 @@
+---
+layout: minify
+---
 {
-    "name": "Mathias",
-    "icons": [
-        {
-            "src": "/icons/android-chrome.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+	"name": "Mathias",
+	"icons": [
+		{
+			"src": "/icons/android-chrome.png",
+			"sizes": "any"
+		}
+	]
 }
