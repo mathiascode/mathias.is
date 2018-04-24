@@ -6,7 +6,8 @@ layout: minify
 	"icons": [
 		{
 			"src": "/icons/android-chrome.png",
-			"sizes": "any"
+			"sizes": "any",
+			"type": "image/png"
 		}
 	]
 }
