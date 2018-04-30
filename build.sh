@@ -2,7 +2,7 @@
 cd $HOME/build-websites/mathias-website/
 rm Gemfile.lock
 bundle install
-if jekyll build --destination $HOME/html/mathias.re/; then
+if bundle exec jekyll build --destination $HOME/html/mathias.re/; then
 	cd $HOME/html/mathias.re/
 	rm -rf *.br
 	rm -rf *.gz

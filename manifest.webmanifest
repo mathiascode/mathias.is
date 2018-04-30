@@ -5,7 +5,7 @@ layout: minify
 	"name": "Mathias",
 	"icons": [
 		{
-			"src": "/icons/android-chrome.png",
+			"src": "/manifest-icon.png",
 			"sizes": "any",
 			"type": "image/png"
 		}

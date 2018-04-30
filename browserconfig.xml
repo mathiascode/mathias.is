@@ -1,0 +1,14 @@
+---
+layout: minify
+---
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+	<msapplication>
+		<tile>
+			<square70x70logo src="/tile-small.png"/>
+			<square150x150logo src="/tile-medium.png"/>
+			<wide310x150logo src="/tile-wide.png"/>
+			<TileColor>#00588e</TileColor>
+		</tile>
+	</msapplication>
+</browserconfig>

@@ -15,12 +15,13 @@ RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
 RewriteCond %{ENV:HTTPS} !=on
 RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
-ErrorDocument 404 /404.html
+ErrorDocument 403 /index.html
+ErrorDocument 404 /index.html
 RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule . - [R=404]
 
 <FilesMatch ".(htm|html)$">
-Header set Content-Security-Policy "default-src 'none'; font-src data:; form-action 'self'; img-src 'self'; manifest-src 'self'; style-src 'self'; upgrade-insecure-requests"
+Header set Content-Security-Policy "default-src 'none'; font-src data:; form-action 'self'; img-src 'self' data:; manifest-src 'self'; style-src 'self'; upgrade-insecure-requests"
 Header set X-Frame-Options "DENY"
 Header set X-Xss-Protection "1; mode=block"
 </FilesMatch>

@@ -1,14 +1,11 @@
 title: Mathias
-description: My name is Mathias. I like to contribute to various software projects I find interesting. This is my personal website, which I use for different projects and experiments of mine.
+description: My name is Mathias. I like to contribute to software projects that interest me. This is my personal website, which I use for various experiments of mine.
 url: https://mathias.re
 
 exclude:
   - build.sh
   - Gemfile
   - LICENSE
-
-kramdown:
-  entity_output: :as_input
 
 sass:
   style: :compressed
