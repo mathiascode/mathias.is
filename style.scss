@@ -42,7 +42,7 @@ p {
 	margin: 1.000em 0;
 }
 a {
-	background: $accentcolor url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23F6F6F9' d='M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z'/%3E%3C/svg%3E") 1.125em center/1.750em 1.750em no-repeat;
+	background: $accentcolor url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23F6F6F9' d='M3.89 4C2.845 4 2 4.844 2 5.89v12.22C2 19.155 2.844 20 3.89 20h16.22c1.046 0 1.89-.844 1.89-1.89V5.89C22 4.845 21.156 4 20.11 4zm.583 2.238l7.53 4.703 7.522-4.703.952 1.522-8.473 5.3-8.483-5.3z'/%3E%3C/svg%3E") 1.125em center/1.750em 1.750em no-repeat;
 	border-radius: 1.500em;
 	color: $lightcolor;
 	display: inline-block;
