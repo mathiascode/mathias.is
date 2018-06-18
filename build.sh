@@ -1,9 +1,9 @@
 #!/bin/bash
-cd $HOME/build/mathias.re/
+cd $HOME/build/mathias.is/
 rm Gemfile.lock
 bundle install
-if bundle exec jekyll build --destination $HOME/html/mathias.re/; then
-	cd $HOME/html/mathias.re/
+if bundle exec jekyll build --destination $HOME/html/mathias.is/; then
+	cd $HOME/html/mathias.is/
 	rm -rf *.br
 	rm -rf *.gz
 	for file in `find . -type f -name '*'`; do
