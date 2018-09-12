@@ -2,18 +2,16 @@
 layout: default
 ---
 <svg>
-	<linearGradient id="a" x1="0%" y1="0%" x2="0%" y2="100%">
-		<stop offset="0%" stop-color="#00588e"/>
-		<stop offset="100%" stop-color="#3279a4"/>
-	</linearGradient>
-	<linearGradient id="b" x1="0%" y1="0%" x2="0%" y2="100%">
-		<stop offset="0%" stop-color="#0068a8"/>
-		<stop offset="100%" stop-color="#3887b8"/>
-	</linearGradient>
-	<symbol id="logo" viewBox="0 0 20 18">
+	<defs>
+		<linearGradient id="a" x1="0%" y1="0%" x2="0%" y2="100%">
+			<stop offset="0%" stop-color="#00588e"/>
+			<stop offset="100%" stop-color="#3279a4"/>
+		</linearGradient>
+	</defs>
+	<symbol fill="url(#a)" id="logo" viewBox="0 0 20 18">
 		<path d="M0 0v18l5-4.5 5 4.5 5-4.5 5 4.5V0L10 9z"/>
 	</symbol>
-	<symbol id="mail" viewBox="0 0 24 20">
+	<symbol fill="url(#a)" id="mail" viewBox="0 0 24 20">
 		<path d="M3.89 2C2.845 2 2 2.844 2 3.89v12.22C2 17.155 2.844 18 3.89 18h16.22c1.046 0 1.89-.844 1.89-1.89V3.89C22 2.845 21.156 2 20.11 2zm.583 2.238l7.53 4.703 7.522-4.703.952 1.522-8.473 5.3-8.483-5.3z"/>
 	</symbol>
 </svg>
@@ -30,5 +28,7 @@ layout: default
 	<svg>
 		<use xlink:href="#mail"/>
 	</svg>
-	&#109;&#97;&#x69;&#108;&#x40;&#109;&#97;&#116;&#x68;&#105;&#97;&#x73;&#x2e;&#105;&#x73;
+	<span>
+		&#109;&#97;&#x69;&#108;&#x40;&#109;&#97;&#116;&#x68;&#105;&#97;&#x73;&#x2e;&#105;&#x73;
+	</span>
 </a>

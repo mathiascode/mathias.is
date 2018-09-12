@@ -8,13 +8,18 @@ layout: minify
 	<title>{{ site.title }}</title>
 	<meta name="description" content="{{ site.description }}">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" integrity="{% sri style.scss %}" href="/style.css">
 	<link rel="manifest" href="/site.webmanifest">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00588e">
+	<style>
+		{% capture style %}
+		{% include style.css %}
+		{% endcapture %}
+		{{ style | scssify }}
+	</style>
 </head>
 <body>
-	<div id="main">
+	<main>
 		{{ content }}
-	</div>
+	</main>
 </body>
 </html>

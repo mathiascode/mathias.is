@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $HOME/build/mathias.is/
-rm Gemfile.lock
+rm -f Gemfile.lock
 bundle install
 if bundle exec jekyll build --destination $HOME/html/mathias.is/; then
 	cd $HOME/html/mathias.is/
