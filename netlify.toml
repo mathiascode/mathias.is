@@ -1,0 +1,47 @@
+---
+---
+
+[[headers]]
+for = "/"
+[headers.values]
+Content-Security-Policy = "default-src 'none'; font-src data:; img-src 'self'; manifest-src 'self'; style-src 'unsafe-inline'; upgrade-insecure-requests"
+X-Frame-Options = "DENY"
+X-Xss-Protection = "1; mode=block"
+
+[[headers]]
+for = "/*"
+[headers.values]
+Age = ""
+Referrer-Policy = "no-referrer"
+Strict-Transport-Security = "max-age=63072000; includeSubdomains; preload"
+X-Content-Type-Options = "nosniff"
+
+[[headers]]
+for = "/*.ico"
+[headers.values]
+Content-Type = "image/x-icon"
+
+[[headers]]
+for = "/*.png"
+[headers.values]
+Content-Type = "image/png; charset=utf-8"
+
+[[headers]]
+for = "/*.svg"
+[headers.values]
+Content-Type = "image/svg+xml; charset=utf-8"
+
+[[headers]]
+for = "/*.webmanifest"
+[headers.values]
+Content-Type = "application/manifest+json; charset=utf-8"
+
+[[headers]]
+for = "/*.xml"
+[headers.values]
+Content-Type = "image/xml; charset=utf-8"
+
+[[redirects]]
+from = "/*"
+to = "/index"
+status = 404
