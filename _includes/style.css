@@ -32,7 +32,7 @@ html {
 body {
 	animation: fadein 1.0s;
 	display: table-cell;
-	padding: 1.000em 0;
+	padding: 0.875em 0 1.000em;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -42,16 +42,16 @@ main > svg {
 	width: 0;
 }
 h1 svg {
-	height: 4.875em;
-	width: 5.500em;
+    height: 5.313em;
+    width: 6.125em;
 }
 span, svg {
 	vertical-align: middle;
 }
 p {
-        font-size: 1.625em;
+    font-size: 1.625em;
 	line-height: 1.750;
-	margin: 1.125em 0.750em;
+	margin: 1.000em 0.750em 1.125em;
 }
 a {
 	color: #00588e;
