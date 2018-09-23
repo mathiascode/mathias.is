@@ -42,14 +42,14 @@ main > svg {
 	width: 0;
 }
 h1 svg {
-    height: 5.313em;
-    width: 6.125em;
+	height: 5.313em;
+	width: 6.125em;
 }
 span, svg {
 	vertical-align: middle;
 }
 p {
-    font-size: 1.625em;
+	font-size: 1.625em;
 	line-height: 1.750;
 	margin: 1.000em 0.750em 1.125em;
 }
