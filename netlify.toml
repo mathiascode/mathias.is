@@ -39,6 +39,11 @@ for = "/*.xml"
 Content-Type = "text/xml; charset=utf-8"
 
 [[redirects]]
+from = "https://ma.netlify.com/*"
+to = "https://mathias.is/*"
+status = 301
+
+[[redirects]]
 from = "/*"
 to = "/index"
 status = 404
