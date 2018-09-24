@@ -2,6 +2,9 @@ title: Mathias
 description: Mathias is the name.
 url: https://mathias.is
 
+include:
+  - _redirects
+
 exclude:
   - build.sh
   - Gemfile
