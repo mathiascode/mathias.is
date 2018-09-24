@@ -8,7 +8,7 @@ X-Xss-Protection = "1; mode=block"
 [[headers]]
 for = "/*"
 [headers.values]
-Age = ""
+Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; legacy-image-format 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'none'; sync-xhr 'none'; usb 'none'; vr 'none'"
 Referrer-Policy = "no-referrer"
 Strict-Transport-Security = "max-age=63072000; includeSubdomains; preload"
 X-Content-Type-Options = "nosniff"
