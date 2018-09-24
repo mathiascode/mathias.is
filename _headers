@@ -1,4 +1,4 @@
-https://mathias.is/
+/
   Content-Security-Policy: default-src 'none'; font-src data:; img-src 'self'; manifest-src 'self'; style-src 'unsafe-inline'; upgrade-insecure-requests
   X-Frame-Options: DENY
   X-Xss-Protection: 1; mode=block
