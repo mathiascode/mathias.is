@@ -39,8 +39,13 @@ for = "/*.xml"
 Content-Type = "text/xml; charset=utf-8"
 
 [[redirects]]
+from = "https://ma.netlify.com/"
+to = "https://mathias.is/"
+status = 301
+
+[[redirects]]
 from = "https://ma.netlify.com/*"
-to = "https://mathias.is/*"
+to = "https://mathias.is/:splat"
 status = 301
 
 [[redirects]]
@@ -50,5 +55,5 @@ status = 404
 
 [[redirects]]
 from = "http://www.mathias.is/*"
-to = "https://mathias.is/*"
+to = "https://mathias.is/:splat"
 status = 301
