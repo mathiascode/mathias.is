@@ -3,6 +3,7 @@ description: Mathias is the name.
 url: https://mathias.is
 
 include:
+  - _headers
   - _redirects
 
 exclude:

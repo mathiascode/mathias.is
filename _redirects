@@ -1,3 +1,4 @@
 https://ma.netlify.com/* https://mathias.is/:splat 301!
+http://mathias.is/* https://mathias.is/:splat 301!
 http://www.mathias.is/* https://mathias.is/:splat 301!
 https://mathias.is/* /index 404
