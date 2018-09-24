@@ -49,11 +49,11 @@ to = "https://mathias.is/:splat"
 status = 301
 
 [[redirects]]
-from = "/*"
-to = "/index"
-status = 404
-
-[[redirects]]
 from = "http://www.mathias.is/*"
 to = "https://mathias.is/:splat"
 status = 301
+
+[[redirects]]
+from = "https://mathias.is/*"
+to = "/index"
+status = 404
