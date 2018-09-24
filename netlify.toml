@@ -1,12 +1,12 @@
 [[headers]]
-for = "https://mathias.is/"
+for = "/"
 [headers.values]
 Content-Security-Policy = "default-src 'none'; font-src data:; img-src 'self'; manifest-src 'self'; style-src 'unsafe-inline'; upgrade-insecure-requests"
 X-Frame-Options = "DENY"
 X-Xss-Protection = "1; mode=block"
 
 [[headers]]
-for = "https://mathias.is/*"
+for = "/*"
 [headers.values]
 Feature-Policy = "accelerometer 'none'; ambient-light-sensor 'none'; autoplay 'none'; camera 'none'; encrypted-media 'none'; fullscreen 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; midi 'none'; payment 'none'; speaker 'none'; sync-xhr 'none'; usb 'none'; vr 'none'"
 Referrer-Policy = "no-referrer"
@@ -42,3 +42,8 @@ Content-Type = "text/xml; charset=utf-8"
 from = "/*"
 to = "/index"
 status = 404
+
+[[redirects]]
+from = "http://www.mathias.is/*"
+to = "https://mathias.is/*"
+status = 301
