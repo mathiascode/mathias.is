@@ -24,7 +24,7 @@
 }
 
 html {
-	background: #F6F6F9;
+	background: #F8F8FB;
 	color: #505050;
 	display: table;
 	font-family: Cutive, serif;
@@ -64,7 +64,7 @@ p {
 }
 
 a {
-	color: #0D659B;
+	color: #055D93;
 	padding: 0 .375em;
 	transition: .08s;
 }
