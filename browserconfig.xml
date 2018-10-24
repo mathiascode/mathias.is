@@ -8,7 +8,7 @@ layout: minify
 			<square70x70logo src="/tile-small.png"/>
 			<square150x150logo src="/tile-medium.png"/>
 			<wide310x150logo src="/tile-wide.png"/>
-			<TileColor>#00588e</TileColor>
+			<TileColor>#055D93</TileColor>
 		</tile>
 	</msapplication>
 </browserconfig>

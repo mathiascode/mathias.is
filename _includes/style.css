@@ -27,7 +27,7 @@ html {
 	background: #F8F8FB;
 	color: #4C4C4C;
 	display: table;
-	fill: #0E5A86;
+	fill: #055D93;
 	font-family: Cutive, serif;
 	font-size: calc(1.125em + .2vw);
 	height: 100%;
@@ -59,7 +59,7 @@ p {
 }
 
 a {
-	color: #0E5A86;
+	color: #055D93;
 	padding: 0 .375em;
 	transition: .08s;
 }
