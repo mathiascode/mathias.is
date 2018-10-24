@@ -41,12 +41,6 @@ body {
 	vertical-align: middle;
 }
 
-main > svg {
-	display: block;
-	height: 0;
-	width: 0;
-}
-
 h1 svg {
 	height: 4.875em;
 	width: 5.625em;
