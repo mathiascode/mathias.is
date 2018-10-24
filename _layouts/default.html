@@ -10,10 +10,7 @@ layout: minify
 <link rel=manifest href=/site.webmanifest>
 <link rel=mask-icon href=/safari-pinned-tab.svg color=#00588e>
 <style>
-	{% capture style %}
-	{% include style.css %}
-	{% endcapture %}
-	{{ style | scssify }}
+	{% include style.css | scssify %}
 </style>
 <main>
 	{{ content }}
