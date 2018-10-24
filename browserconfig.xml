@@ -5,9 +5,9 @@ layout: minify
 <browserconfig>
 	<msapplication>
 		<tile>
-			<square70x70logo src="/tile-small.png"/>
-			<square150x150logo src="/tile-medium.png"/>
-			<wide310x150logo src="/tile-wide.png"/>
+			<square70x70logo src="/ms-small-icon.png"/>
+			<square150x150logo src="/ms-medium-icon.png"/>
+			<wide310x150logo src="/ms-wide-icon.png"/>
 			<TileColor>#055D93</TileColor>
 		</tile>
 	</msapplication>

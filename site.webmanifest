@@ -5,10 +5,9 @@ layout: minify
 	"name": "Mathias",
 	"icons": [
 		{
-			"src": "/manifest-icon.png",
+			"src": "/web-manifest-icon.png",
 			"sizes": "any",
 			"type": "image/png"
 		}
-	],
-	"display": "standalone"
+	]
 }
