@@ -9,5 +9,6 @@ layout: minify
 			"sizes": "any",
 			"type": "image/png"
 		}
-	]
+	],
+	"display": "standalone"
 }
