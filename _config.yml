@@ -2,12 +2,7 @@ title: Mathias
 description: Mathias is the name. Simply another personal website.
 url: https://mathias.is
 
-include:
-  - _headers
-  - _redirects
-
 exclude:
-  - build.sh
   - Gemfile
   - LICENSE
   - README.md
