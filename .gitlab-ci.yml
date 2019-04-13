@@ -12,6 +12,6 @@ pages:
 https:
   script:
     - git clone https://github.com/diafygi/acme-tiny.git
-    - python acme_tiny/acme_tiny.py --account-key $ACCOUNT_KEY --csr $CSR --acme-dir public/.well-known/acme-challenge/ > cert.pem
+    - cd acme-tiny && python acme_tiny.py --account-key $ACCOUNT_KEY --csr $CSR --acme-dir public/.well-known/acme-challenge/ > cert.pem
     - "curl --request PUT --header \"Private-Token: $GITLAB_TOKEN\" --form \"certificate=cert.pem\" --form \"key=$DOMAIN_KEY\" https://framagit.org/api/v4/projects/$CI_PROJECT_ID/pages/domains/$DOMAIN"
 
