@@ -9,3 +9,12 @@ pages:
   artifacts:
     paths:
     - public
+https:
+  script:
+    - openssl req -new -sha256 -key $DOMAIN_KEY -subj "/" -reqexts SAN -config <(cat /etc/pki/tls/openssl.cnf <(printf "[SAN]\nsubjectAltName=DNS:mathias.is,DNS:www.mathias.is")) -out csr.csr
+    - git clone https://github.com/diafygi/acme-tiny.git
+    - python acme_tiny/acme_tiny.py --account-key $ACCOUNT_KEY --csr csr.csr --acme-dir public/.well-known/acme-challenge/ > cert.pem
+    - "curl --request PUT --header \"Private-Token: $GITLAB_TOKEN\" --form \"certificate=cert.pem\" --form \"key=$DOMAIN_KEY\" https://framagit.org/api/v4/projects/$CI_PROJECT_ID/pages/domains/$DOMAIN"
+  only:
+    - schedules
+
