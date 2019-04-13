@@ -11,7 +11,7 @@ pages:
     - public
 https:
   script:
-    - mkdir public/.well-known/acme-challenge/
+    - mkdir -p public/.well-known/acme-challenge/
     - echo "$ACCOUNT_KEY" > account.key
     - echo "$CSR" > csr.csr
     - git clone https://github.com/diafygi/acme-tiny.git
