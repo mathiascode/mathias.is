@@ -11,7 +11,9 @@ pages:
     - public
 https:
   script:
+    - echo $ACCOUNT_KEY > account.key
+    - echo $CSR > csr.csr
     - git clone https://github.com/diafygi/acme-tiny.git
-    - cd acme-tiny && python acme_tiny.py --account-key $ACCOUNT_KEY --csr $CSR --acme-dir public/.well-known/acme-challenge/ > cert.pem
-    - "curl --request PUT --header \"Private-Token: $GITLAB_TOKEN\" --form \"certificate=cert.pem\" --form \"key=$DOMAIN_KEY\" https://framagit.org/api/v4/projects/$CI_PROJECT_ID/pages/domains/$DOMAIN"
+    - cd acme-tiny && python acme_tiny.py --account-key ../account.key --csr ../csr.csr --acme-dir ../public/.well-known/acme-challenge/ > ../cert.pem
+    - "curl --request PUT --header \"Private-Token: $GITLAB_TOKEN\" --form \"certificate=$(cat cert.pem)\" --form \"key=$DOMAIN_KEY\" https://framagit.org/api/v4/projects/$CI_PROJECT_ID/pages/domains/$DOMAIN"
 
