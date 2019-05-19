@@ -17,6 +17,18 @@
 	}
 }
 
+@media (prefers-color-scheme: dark) {
+	html {
+		background: #0A0A0A;
+		color: #F0F0F0;
+		fill: #1AA1F4;
+	}
+
+	a {
+		color: #1AA1F4;
+	}
+}
+
 * {
 	font-size: 1em;
 	line-height: 1.2;
