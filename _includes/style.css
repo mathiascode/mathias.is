@@ -19,13 +19,13 @@
 
 @media (prefers-color-scheme: dark) {
 	html {
-		background: #0A0A0A;
-		color: #F0F0F0;
-		fill: #1AA1F4;
+		background: hsl(0, 0%, 4%);
+		color: hsl(0, 0%, 94%);
+		fill: hsl(203, 93%, 53%);
 	}
 
 	a {
-		color: #1AA1F4;
+		color: hsl(203, 93%, 53%);
 	}
 }
 
@@ -37,10 +37,10 @@
 }
 
 html {
-	background: #F8F8FB;
-	color: #4C4C4C;
+	background: hsl(0, 0%, 98%);
+	color: hsl(0, 0%, 30%);
 	display: table;
-	fill: #055D93;
+	fill: hsl(203, 93%, 30%);
 	font-family: Cutive, serif;
 	font-size: calc(1.125em + .2vw);
 	height: 100%;
@@ -72,7 +72,7 @@ p {
 }
 
 a {
-	color: #055D93;
+	color: hsl(203, 93%, 30%);
 	padding: 0 .375em;
 	transition: .08s;
 }
