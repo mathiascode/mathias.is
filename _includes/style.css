@@ -37,7 +37,7 @@
 }
 
 html {
-	background: hsl(0, 0%, 99%);
+	background: hsl(0, 0%, 100%);
 	color: hsl(0, 0%, 30%);
 	display: table;
 	fill: hsl(203, 93%, 30%);
