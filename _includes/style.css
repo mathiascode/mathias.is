@@ -42,7 +42,7 @@ html {
 	display: table;
 	fill: hsl(203, 93%, 30%);
 	font-family: Cutive, serif;
-	font-size: calc(1.125em + .8vw);
+	font-size: calc(1.125em + .4vh + .4vw);
 	height: 100%;
 	width: 100%;
 }
