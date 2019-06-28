@@ -11,7 +11,13 @@ layout: minify
 <link rel=manifest href=/site.webmanifest>
 <style>
 	{% capture style %}
-		{% include style.css %}
+		{% include main.css %}
+		{% if page.url == "/" %}
+			{% include home.css %}
+		{% endif %}
+		{% if page.url == "/404" %}
+			{% include error.css %}
+		{% endif %}
 	{% endcapture %}
 	{{ style | scssify }}
 </style>

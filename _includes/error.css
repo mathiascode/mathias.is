@@ -1,0 +1,13 @@
+h1 {
+	color: hsl(358, 44%, 46%);
+	font-size: 3.625em;
+	letter-spacing: .375em;
+	line-height: 1.500;
+	margin: 0 0 .125em .250em;
+}
+
+p {
+	font-size: 1.625em;
+	letter-spacing: .125em;
+	margin: 0 .750em 1em 1em;
+}
