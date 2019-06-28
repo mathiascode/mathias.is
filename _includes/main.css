@@ -16,17 +16,17 @@
 	}
 }
 
-/*@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 	html {
-		background: hsl(0, 0%, 2%);
-		color: hsl(0, 0%, 96%);
-		fill: hsl(203, 70%, 58%);
+		background: hsl(40, 20%, 4%);
+		color: hsl(0, 0%, 80%);
+		fill: hsl(175, 100%, 28%);
 	}
 
 	a {
-		color: hsl(203, 70%, 58%);
+		color: hsl(175, 100%, 28%);
 	}
-}*/
+}
 
 * {
 	font-size: 1em;
