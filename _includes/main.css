@@ -68,7 +68,7 @@ a:focus {
 
 @media (prefers-reduced-motion) {
 	* {
-		animation-duration: .001ms !important;
-		transition-duration: .001ms !important;
+		animation: none !important;
+		transition: none !important;
 	}
 }
