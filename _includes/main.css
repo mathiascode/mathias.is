@@ -28,6 +28,20 @@
 	}
 }
 
+@media (prefers-reduced-motion: reduce) {
+    html {
+        transition: none;
+    }
+
+    body {
+        animation: none;
+    }
+
+    a {
+        transition: none;
+    }
+}
+
 * {
 	font-size: 1em;
 	line-height: 1.750;
