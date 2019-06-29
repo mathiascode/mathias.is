@@ -29,16 +29,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
-    html {
-        transition: none;
-    }
-
-    body {
-        animation: none;
-    }
-
-    a {
-        transition: none;
+    * {
+        animation-duration: .001ms;
+        transition-duration. .001ms;
     }
 }
 
