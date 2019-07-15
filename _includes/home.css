@@ -1,11 +1,10 @@
+h1 {
+	line-height: 0;
+}
+
 h1 svg {
 	height: 4.875em;
 	width: 5.625em;
-}
-
-span,
-svg {
-	vertical-align: middle;
 }
 
 p {
@@ -13,8 +12,6 @@ p {
 	margin: 1em 1em;
 }
 
-a svg {
-	height: 1.563em;
-	margin: 0 .625em 0 0;
-	width: 1.750em;
+a {
+	font-size: 1.250em;
 }
