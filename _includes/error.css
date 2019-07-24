@@ -9,8 +9,22 @@ p {
 	margin: 1em .750em 1em 1em;
 }
 
+a {
+	color: hsl(175, 100%, 22%);
+	transition: opacity .08s;
+}
+
+a:hover,
+a:focus {
+	opacity: .8;
+}
+
 @media (prefers-color-scheme: dark) {
 	h1 {
 		color: hsl(358, 44%, 55%);
+	}
+
+	a {
+		color: hsl(175, 100%, 28%);
 	}
 }

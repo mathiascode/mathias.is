@@ -44,25 +44,11 @@ body {
 	vertical-align: middle;
 }
 
-a {
-	color: hsl(175, 100%, 22%);
-	transition: opacity .08s;
-}
-
-a:hover,
-a:focus {
-	opacity: .8;
-}
-
 @media (prefers-color-scheme: dark) {
 	html {
 		background: hsl(40, 20%, 4%);
 		color: hsl(0, 0%, 80%);
 		fill: hsl(175, 100%, 28%);
-	}
-
-	a {
-		color: hsl(175, 100%, 28%);
 	}
 }
 
