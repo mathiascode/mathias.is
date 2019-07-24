@@ -4,7 +4,8 @@ svg {
 
 h1 {
 	font-size: 2.750em;
-	margin: 0.500em 0 0;
+	font-weight: normal;
+	margin: 0.625em 0 0;
 }
 
 p {
