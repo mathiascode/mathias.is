@@ -7,7 +7,7 @@
 @keyframes fadein {
 	from {
 		opacity: 0;
-		transform: translateY(-1.250em);
+		transform: translateY(-1.500em);
 	}
 
 	to {
@@ -37,7 +37,7 @@ html {
 }
 
 body {
-	animation: fadein .8s;
+	animation: fadein .6s;
 	display: table-cell;
 	padding: .875em 0 2.5em;
 	text-align: center;
