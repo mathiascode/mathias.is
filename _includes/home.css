@@ -1,17 +1,12 @@
-h1 {
-	line-height: 0;
-}
-
 h1 svg {
-	height: 4.875em;
-	width: 5.625em;
+	width: 5.875em;
 }
 
 p {
 	font-size: 1.625em;
-	margin: 1em 1.125em;
+	margin: .750em 1.125em 1em;
 }
 
 a {
-	font-size: 1.375em;
+	font-size: 1.438em;
 }

@@ -1,13 +1,12 @@
 h1 {
 	color: hsl(358, 44%, 46%);
-	font-size: 3.625em;
+	font-size: 3.375em;
 	line-height: 1;
-	margin: 0 0 .375em;
 }
 
 p {
 	font-size: 1.625em;
-	margin: 0 .750em 1em 1em;
+	margin: 1em .750em 1em 1em;
 }
 
 @media (prefers-color-scheme: dark) {
