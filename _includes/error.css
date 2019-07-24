@@ -11,6 +11,7 @@ p {
 
 a {
 	color: hsl(175, 100%, 22%);
+	font-size: 1.375em;
 	transition: opacity .08s;
 }
 
