@@ -17,3 +17,10 @@ span {
 	color: hsl(175, 100%, 22%);
 	font-size: 1.438em;
 }
+
+@media (prefers-color-scheme: dark) {
+	span {
+		color: hsl(0, 0%, 80%);
+	}
+}
+
