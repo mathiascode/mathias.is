@@ -20,7 +20,7 @@ span {
 
 @media (prefers-color-scheme: dark) {
 	span {
-		color: hsl(0, 0%, 80%);
+		color: hsl(175, 100%, 32%);
 	}
 }
 

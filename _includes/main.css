@@ -47,9 +47,9 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	html {
-		background: hsl(0, 0%, 8%);
+		background: hsl(0, 0%, 10%);
 		color: hsl(0, 0%, 80%);
-		fill: hsl(175, 100%, 28%);
+		fill: hsl(175, 100%, 32%);
 	}
 }
 
