@@ -15,6 +15,7 @@ a {
 	color: hsl(175, 100%, 22%);
 	color: var(--accent);
 	font-size: 1.375em;
+	text-decoration: none;
 	transition: opacity .08s;
 }
 
