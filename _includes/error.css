@@ -1,6 +1,6 @@
 h1 {
 	color: hsl(358, 44%, 46%);
-	color: var(--red);
+	color: var(--error);
 	font-size: 3.375em;
 	line-height: 1;
 }
@@ -13,7 +13,7 @@ h2 {
 
 a {
 	color: hsl(175, 100%, 22%);
-	color: var(--green);
+	color: var(--accent);
 	font-size: 1.375em;
 	transition: opacity .08s;
 }

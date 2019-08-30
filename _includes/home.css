@@ -16,6 +16,6 @@ h2 {
 
 span {
 	color: hsl(175, 100%, 22%);
-	color: var(--green);
+	color: var(--accent);
 	font-size: 1.625em;
 }
