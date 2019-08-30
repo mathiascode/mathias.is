@@ -10,6 +10,7 @@ layout: minify
 <link rel=manifest href=/site.webmanifest>
 <style>
 	{% capture style %}
+		{% include color.css %}
 		{% include main.css %}
 		{% if page.url == "/" %}
 			{% include home.css %}
