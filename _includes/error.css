@@ -1,5 +1,6 @@
 h1 {
 	color: hsl(358, 44%, 46%);
+	color: var(--red);
 	font-size: 3.375em;
 	line-height: 1;
 }
@@ -12,6 +13,7 @@ h2 {
 
 a {
 	color: hsl(175, 100%, 22%);
+	color: var(--green);
 	font-size: 1.375em;
 	transition: opacity .08s;
 }
@@ -19,14 +21,4 @@ a {
 a:hover,
 a:focus {
 	opacity: .8;
-}
-
-@media (prefers-color-scheme: dark) {
-	h1 {
-		color: hsl(358, 44%, 55%);
-	}
-
-	a {
-		color: hsl(175, 100%, 28%);
-	}
 }
