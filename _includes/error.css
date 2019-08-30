@@ -3,6 +3,7 @@ h1 {
 	color: var(--error);
 	font-size: 3.375em;
 	line-height: 1;
+	margin: 0;
 }
 
 h2 {
