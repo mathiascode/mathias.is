@@ -18,6 +18,9 @@ layout: minify
 		{% if page.url == "/404" %}
 			{% include error.css %}
 		{% endif %}
+		{% if page.url == "/psst" %}
+			{% include secret.css %}
+		{% endif %}
 	{% endcapture %}
 	{{ style | scssify }}
 </style>
