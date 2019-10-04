@@ -14,7 +14,7 @@ h2 {
 	margin: 0 0 1.875em;
 }
 
-span {
+a {
 	color: hsl(175, 100%, 22%);
 	color: var(--accent);
 	font-size: 1.625em;
