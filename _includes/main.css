@@ -8,10 +8,8 @@
 }
 
 html {
-	background: hsl(40, 20%, 96%);
-	background: var(--background);
-	color: hsl(0, 1%, 34%);
-	color: var(--text);
+	background: hsl(40, 20%, 98%);
+	color: hsl(0, 0%, 34%);
 	display: table;
 	font-family: Cutive, serif;
 	font-size: calc(.275em + .72vh + .72vw);
@@ -32,6 +30,7 @@ body {
 h1 {
 	font-size: 2.5em;
 	font-weight: normal;
+	margin: 0 0 .15em;
 }
 
 h2 {
