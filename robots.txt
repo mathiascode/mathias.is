@@ -1,5 +1,2 @@
----
-layout: minify
----
-User-agent: * 
+User-agent: *
 Disallow: /
