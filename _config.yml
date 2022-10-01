@@ -3,7 +3,6 @@ url: https://mathias.is
 theme: null
 
 exclude:
-  - Gemfile
   - LICENSE
   - README.md
 
