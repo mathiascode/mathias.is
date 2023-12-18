@@ -1,6 +1,9 @@
 title: Mathias
 theme: null
 
+include:
+  - .well-known
+
 exclude:
   - LICENSE
   - README.md
